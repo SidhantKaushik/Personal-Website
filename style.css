@@ -1,0 +1,458 @@
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#boxx{
+    transition: all 1s, linear 1s;
+    width: 100%;
+    height: 100vh;
+}
+.imgXY{
+object-fit: cover;
+object-position: 0% 10%;
+  width:100%;
+  height: 50vh;
+}
+#imageZ {
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+#NameX{
+    padding-top: 40px;
+    padding-left: 25px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+
+}
+#Detailzz{
+     padding-left: 25px;
+     padding-right: 25px;
+    color: black;
+}
+#InfoR{
+    background-color: beige;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+@media screen and (min-width:576px){
+    #boxx{
+        padding-top: 3vh;
+    }
+    #InfoR{
+    }
+}
+@media screen and (min-width:767px){
+    #boxx{
+        padding-top: 3vh;
+    }
+    .imgXY{
+        height: 93.5vh;
+        object-position: 50%;
+        min-height: 700px;
+    }
+    #InfoR{
+        height: 93.5vh;
+        min-height: 700px;
+    }
+  
+    #InfoR p{
+        font-size: 1.75em;
+    }
+}
+header{
+    
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+#abc{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+@page :first { 
+  header { display:block; } 
+}
+#space{
+    height: 30vh;
+}
+#name{
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#name p{
+    font-family: 'Cookie';
+    font-size: 6em;
+    text-align: center;
+    color: gray;
+    margin-bottom: -10px;
+}
+
+#scroll{
+    height: 10vh;
+    text-align: center;
+    color: lightgray;
+}
+
+.full-screen{
+    height: 100vh;
+}
+.all{
+    scroll-snap-type: y mandatory;
+}
+
+.child{
+ scroll-snap-align: start;
+}
+#imgab{
+
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+#education{
+    width: 100vw;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#spacz{
+    height: 5vh;
+}
+#education h1{
+    font-size: 4em;
+    font-family: 'Abril Fatface', cursive;
+    color: lightgray;
+}
+
+#education
+{
+    height: 100vh;
+    background-image: url(images/opened-light-1323732.jpg);
+    background-color: deepskyblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  scroll-snap-align: start;
+  position: relative;
+}
+article{
+  overflow: scroll;
+    overflow-x: hidden;
+  height: 100%;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: y mandatory;
+}
+
+body {
+ overflow: hidden;
+    width:100vw;
+    margin: 0;
+}
+.video{
+    background-image: url(images/Screen%20Shot%202020-05-17%20at%207.13.01%20PM.png);
+}
+#videoBG {
+    background-image: url(images/Screen%20Shot%202020-05-17%20at%207.13.01%20PM.png);
+    z-index:;
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+    object-position: center;
+}
+.imageXTY{
+position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  height: 80vh;
+    width: 80vh;
+    z-index: 1;
+}
+body{
+    width: 100vw;
+    margin: 0px;
+}
+
+
+
+.imgabc{
+object-fit: cover;
+    object-position:100% -10vh;
+  width:100%;
+  min-height: 100vh;
+}
+#aboutMe{
+    background-color: #fff1cc;
+}
+#imageK {
+    padding-right: 0px;
+    padding-left: 0px;
+    object-fit: cover;
+    object-position:50%;
+  width:100%;
+  height: 50vh;
+
+}
+#content{
+    color: gray;
+    min-height: 50vh;
+    font-size: 1.2em;
+    background-color: #fff1cc ;
+    background-position: 20% 30%;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+#countriesTitle{
+     font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+    background-color: #fff1cc;
+}
+#countries{
+    
+    text-align: center;
+    height: 150px;
+      font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #fff1cc;
+}
+#china{
+}
+#nameZ{
+    padding-top: 40px;
+    padding-left: 20px;
+    color: gray;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+
+}
+#details{
+     padding-left: 25px;
+     padding-right: 25px;
+    color: gray;
+}
+
+#warning-message { display: none; }
+  @media only screen and (orientation:portrait ) and (max-width:750px){
+      article {display: block;}
+        #warning-message { display:none; }
+  }
+  @media only screen and (orientation:landscape) and (max-width:750px){
+
+      article { display:none; }
+      #warning-message { display:block; }
+  }
+#warning-message{
+ width: 100vw;
+    height: 100vh;
+}
+
+#warning-message img{
+    position: fixed;
+    z-index: 2000;
+  width: 100vw;
+  height: 100vh;
+}
+.workExp{
+    width: 100%;
+     background-color: lightblue;
+}
+#workExpTitle{
+  height: 70px;
+    width: 100vw;
+  color: gray;
+  background-color: lightyellow;
+  text-align: center;
+  padding-top: 1vh;
+  font-size: 2em;
+}
+
+#calgaryTitle h6{
+    font-size: 2.0rem;
+    padding-right:70px;
+    width: 100vw;
+}
+#calgaryInfo, #calgaryTitle{
+    text-align: right;
+    width: 100vw;
+
+    z-index: 4;
+}
+#calgaryInfo{
+    padding-bottom: 30px;
+}
+#calgaryDetails{
+      min-height: 46vh;
+}
+#calgaryInfo h2{
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding-right: 35px;
+}
+#calgaryInfo h4{
+    font-size: 1.5em;
+    padding-right: 35px;
+}
+#ymcaText{
+    width: 100vw;
+    min-height: 46vh;
+    color: darkslategrey;
+    background-color: beige;
+}
+#calgaryInfo p{
+    padding-right: 40px;
+    text-align: 
+}
+#ymcaText p,h5,h6{
+    margin-left: 20px;
+}
+#ymcaText h6{
+    font-size: 2.0em;
+}
+#ymcaText h5{
+    font-size: 1.5em;
+}
+#calgaryPhoto{
+       padding-left: 10px;
+    position:static;
+    float: left;
+    padding-right: 10%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 50vw;
+    height: 30vh;
+    transition: 2s;
+}
+#ymcaPhotoZ{
+    display: none;
+    overflow: hidden;
+      padding: 0px;
+    margin: 0px;
+    position:static;
+    float: right;
+    padding-right: 10%;
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+    transition: 2s;
+}
+    
+#ymcaPhoto{
+    padding-left: 10px;
+    position:static;
+    float: right;
+    padding-right: 10%;
+
+    width: 60vw;
+    height: 30vh;
+    transition: 2s;
+}
+#ymcaPhotoZ:hover
+{
+    left: 100px;
+     transition: 2s;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+#ymcaPhoto:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transition: 2s;
+}
+#calgaryPhoto:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    margin-top: 5vh;
+    margin-left: 20vw;
+    transition: 2s;
+}
+@media screen and (max-width: 620px) {
+    header{
+        display: none;
+    }
+  }
+  @media screen and (min-width: 870px)
+  {
+    .imgabc{
+    height: 100vh;
+        width: 100%;
+    }
+    #content{
+      min-height: 100vh;
+    }
+    #education{
+      font-size: 1.5em;
+    }
+    #nameZ{
+        padding-left: 30px;
+      font-size: 2em;
+    }
+    #content{
+      font-size: 1.7em;
+    }
+  }
+p{
+ max-width: 100vw;
+}
+@media screen and (min-width: 900px){
+    #calgaryTitle{
+        font-size: 2em;
+    }
+    #calgaryInfo p,h5,h2{
+        font-size: 1.1em;
+    }
+    #ymcaText p,h5,h6{
+        font-size: 1.1em;
+    }
+    #ymcaPhotoZ{
+        width: 450px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    #ymcaPhoto{
+        display:none;
+        width: 450px;
+        height: 450px;
+
+    }
+}
+@media screen and (min-width: 1250px){
+ #ymcaText p,h5,h6{
+        font-size: 1.4em;
+    }
+ #calgaryInfo p,h5,h4,h2{
+        font-size: 1.4em;
+    }
+    #calgaryInfo h2{
+        font-size: 22.4px;
+    }
+}
+@media screen and (min-width:576px){
+}
+@media screen and (min-width:767px){
+
+}
